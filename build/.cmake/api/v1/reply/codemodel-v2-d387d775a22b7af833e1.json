@@ -1,0 +1,1492 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						14
+					]
+				},
+				{
+					"build" : "deps",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "deps"
+				},
+				{
+					"build" : "deps/freeglut-3.2.1",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "deps/freeglut-3.2.1",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						3
+					],
+					"name" : "study",
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-e8d4ccaef891c5fecb4e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-ALL_BUILD-Debug-897c55e3a841026db68c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CallbackMaker::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-CallbackMaker-Debug-397a77f05c4957e9402c.json",
+					"name" : "CallbackMaker",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CallbackMaker_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-CallbackMaker_static-Debug-7fd3a70eb45578eb614b.json",
+					"name" : "CallbackMaker_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Fractals::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Fractals-Debug-cbcc780752d77a60cbff.json",
+					"name" : "Fractals",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Fractals_random::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Fractals_random-Debug-73e6393e1e18edd2b5b6.json",
+					"name" : "Fractals_random",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Fractals_random_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Fractals_random_static-Debug-ec7ae500e2c8193558e1.json",
+					"name" : "Fractals_random_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Fractals_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Fractals_static-Debug-c4d26c50e6d804ae47c5.json",
+					"name" : "Fractals_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Lorenz::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Lorenz-Debug-25fe680eb76d5b5ab89f.json",
+					"name" : "Lorenz",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Lorenz_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Lorenz_static-Debug-da0e83699338d2c75529.json",
+					"name" : "Lorenz_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "One::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-One-Debug-90d6dfcf5fc150187991.json",
+					"name" : "One",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "One_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-One_static-Debug-762f6584efe6412eead6.json",
+					"name" : "One_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Resizer::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Resizer-Debug-f42b376f6e5d449c05c1.json",
+					"name" : "Resizer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Resizer_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Resizer_static-Debug-66bdc8fd27531e2af89b.json",
+					"name" : "Resizer_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-c8694d92d7792796f9ca.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "app::@145eef247bfb46b6828c",
+					"jsonFile" : "target-app-Debug-011a680269581231ec83.json",
+					"name" : "app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-freeglut-Debug-2946ada8fc98d2f9b6d0.json",
+					"name" : "freeglut",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-freeglut_static-Debug-ad4ab2f2c8b1c94f73c6.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "multi-touch::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-multi-touch-Debug-c4593e27c52552da72cd.json",
+					"name" : "multi-touch",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "multi-touch_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-multi-touch_static-Debug-32ce740aa9712c1cc8e7.json",
+					"name" : "multi-touch_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "shapes::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-shapes-Debug-17cc411a3f5c7c1a40e1.json",
+					"name" : "shapes",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "shapes_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-shapes_static-Debug-2fbed752fb497f6a4632.json",
+					"name" : "shapes_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "smooth_opengl3::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-smooth_opengl3-Debug-e629d5c1ec0e3bcb1e93.json",
+					"name" : "smooth_opengl3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "smooth_opengl3_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-smooth_opengl3_static-Debug-dc40cc7dc1cb49c5fbdf.json",
+					"name" : "smooth_opengl3_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "subwin::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-subwin-Debug-f937790e7fd5b61fa3ca.json",
+					"name" : "subwin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "subwin_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-subwin_static-Debug-0d2fff2785a5719ff35c.json",
+					"name" : "subwin_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "timer::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-timer-Debug-fde9ec183f5688b9464c.json",
+					"name" : "timer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "timer_callback::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-timer_callback-Debug-17c5054de86474a84ba7.json",
+					"name" : "timer_callback",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "timer_callback_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-timer_callback_static-Debug-0719a22dc221aa08c677.json",
+					"name" : "timer_callback_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "timer_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-timer_static-Debug-edb090fee3704eabcceb.json",
+					"name" : "timer_static",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						14
+					]
+				},
+				{
+					"build" : "deps",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "deps"
+				},
+				{
+					"build" : "deps/freeglut-3.2.1",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "deps/freeglut-3.2.1",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						3
+					],
+					"name" : "study",
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-e8d4ccaef891c5fecb4e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-ALL_BUILD-Release-897c55e3a841026db68c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CallbackMaker::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-CallbackMaker-Release-14407d1924a635046260.json",
+					"name" : "CallbackMaker",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CallbackMaker_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-CallbackMaker_static-Release-9edc0ed729782d551942.json",
+					"name" : "CallbackMaker_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Fractals::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Fractals-Release-47107f1d7cc42d8ff401.json",
+					"name" : "Fractals",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Fractals_random::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Fractals_random-Release-46ce5c31d1b96bbe3fe3.json",
+					"name" : "Fractals_random",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Fractals_random_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Fractals_random_static-Release-608bde570bffef03f4d4.json",
+					"name" : "Fractals_random_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Fractals_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Fractals_static-Release-795539219b260c0a9dd7.json",
+					"name" : "Fractals_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Lorenz::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Lorenz-Release-3c5ce6237a64358e5332.json",
+					"name" : "Lorenz",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Lorenz_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Lorenz_static-Release-ad5ffd0205f3b64f15d9.json",
+					"name" : "Lorenz_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "One::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-One-Release-3e7e93b8044ccaba27b4.json",
+					"name" : "One",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "One_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-One_static-Release-beb78c1ee3150edfcd21.json",
+					"name" : "One_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Resizer::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Resizer-Release-ddc227927b033685db53.json",
+					"name" : "Resizer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Resizer_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Resizer_static-Release-e067d3d599a534450d8e.json",
+					"name" : "Resizer_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-c8694d92d7792796f9ca.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "app::@145eef247bfb46b6828c",
+					"jsonFile" : "target-app-Release-e1939dc53fa24c36bada.json",
+					"name" : "app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-freeglut-Release-b9c5fbf24d153182a8fd.json",
+					"name" : "freeglut",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-freeglut_static-Release-4b9142a3fb0a452c9ac7.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "multi-touch::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-multi-touch-Release-ad1694042176e413360b.json",
+					"name" : "multi-touch",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "multi-touch_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-multi-touch_static-Release-ea796b2561d0993687f4.json",
+					"name" : "multi-touch_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "shapes::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-shapes-Release-db830bbd49b04737951f.json",
+					"name" : "shapes",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "shapes_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-shapes_static-Release-42e38ced5d3197047859.json",
+					"name" : "shapes_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "smooth_opengl3::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-smooth_opengl3-Release-a3a28c63ab0eded4a433.json",
+					"name" : "smooth_opengl3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "smooth_opengl3_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-smooth_opengl3_static-Release-fecedd9fa353bb786f97.json",
+					"name" : "smooth_opengl3_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "subwin::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-subwin-Release-1472df47a1344e055bcf.json",
+					"name" : "subwin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "subwin_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-subwin_static-Release-c85622120d24344d8acf.json",
+					"name" : "subwin_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "timer::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-timer-Release-2297e52c9a6a7dafd9ad.json",
+					"name" : "timer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "timer_callback::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-timer_callback-Release-269879e370f69fa3bd95.json",
+					"name" : "timer_callback",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "timer_callback_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-timer_callback_static-Release-4b5b7742b3fdaafb014b.json",
+					"name" : "timer_callback_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "timer_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-timer_static-Release-dd8787d60f647b111deb.json",
+					"name" : "timer_static",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						14
+					]
+				},
+				{
+					"build" : "deps",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "deps"
+				},
+				{
+					"build" : "deps/freeglut-3.2.1",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "deps/freeglut-3.2.1",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						3
+					],
+					"name" : "study",
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-e8d4ccaef891c5fecb4e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-897c55e3a841026db68c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CallbackMaker::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-CallbackMaker-MinSizeRel-09791c74670aa6ddb283.json",
+					"name" : "CallbackMaker",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CallbackMaker_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-CallbackMaker_static-MinSizeRel-2cbcea4368649fbb40f8.json",
+					"name" : "CallbackMaker_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Fractals::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Fractals-MinSizeRel-f03e7127fe5f128dbf14.json",
+					"name" : "Fractals",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Fractals_random::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Fractals_random-MinSizeRel-2faa2a74d41e36a2cfcb.json",
+					"name" : "Fractals_random",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Fractals_random_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Fractals_random_static-MinSizeRel-d134dfafd7088b7d85b9.json",
+					"name" : "Fractals_random_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Fractals_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Fractals_static-MinSizeRel-cf70358965203e19595f.json",
+					"name" : "Fractals_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Lorenz::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Lorenz-MinSizeRel-cb02f6eadcb14868e61a.json",
+					"name" : "Lorenz",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Lorenz_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Lorenz_static-MinSizeRel-3273cf0d225d1a3e07eb.json",
+					"name" : "Lorenz_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "One::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-One-MinSizeRel-1deebef68f7ba822d9d2.json",
+					"name" : "One",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "One_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-One_static-MinSizeRel-8ebd3b1dff2bfe05b6f8.json",
+					"name" : "One_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Resizer::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Resizer-MinSizeRel-876e29a093501d2943c6.json",
+					"name" : "Resizer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Resizer_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Resizer_static-MinSizeRel-dd3bec3114211df6606c.json",
+					"name" : "Resizer_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-c8694d92d7792796f9ca.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "app::@145eef247bfb46b6828c",
+					"jsonFile" : "target-app-MinSizeRel-679300b8fa596e166ca7.json",
+					"name" : "app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-freeglut-MinSizeRel-e58255cf9798533279b4.json",
+					"name" : "freeglut",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-freeglut_static-MinSizeRel-64154d3f1572b52dbefa.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "multi-touch::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-multi-touch-MinSizeRel-a9a0ffedceb71b43c9df.json",
+					"name" : "multi-touch",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "multi-touch_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-multi-touch_static-MinSizeRel-d2ebdec291c49d8bcb92.json",
+					"name" : "multi-touch_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "shapes::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-shapes-MinSizeRel-cf11c4089f5a1bd22172.json",
+					"name" : "shapes",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "shapes_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-shapes_static-MinSizeRel-3dc3b3825cd139fb0c6e.json",
+					"name" : "shapes_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "smooth_opengl3::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-smooth_opengl3-MinSizeRel-37bc0ebdccaa8825b1b6.json",
+					"name" : "smooth_opengl3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "smooth_opengl3_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-smooth_opengl3_static-MinSizeRel-eec08488bfe3ce7b33c6.json",
+					"name" : "smooth_opengl3_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "subwin::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-subwin-MinSizeRel-0c63e68176fbe6b5246c.json",
+					"name" : "subwin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "subwin_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-subwin_static-MinSizeRel-eb2fba14613c47290c63.json",
+					"name" : "subwin_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "timer::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-timer-MinSizeRel-792290e385b24d782860.json",
+					"name" : "timer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "timer_callback::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-timer_callback-MinSizeRel-f027cbf88366e627da84.json",
+					"name" : "timer_callback",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "timer_callback_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-timer_callback_static-MinSizeRel-8b5bae9538c34d152e6f.json",
+					"name" : "timer_callback_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "timer_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-timer_static-MinSizeRel-97fd6507f4379d1e287b.json",
+					"name" : "timer_static",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						14
+					]
+				},
+				{
+					"build" : "deps",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "deps"
+				},
+				{
+					"build" : "deps/freeglut-3.2.1",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "deps/freeglut-3.2.1",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						3
+					],
+					"name" : "study",
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-e8d4ccaef891c5fecb4e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-897c55e3a841026db68c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CallbackMaker::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-CallbackMaker-RelWithDebInfo-7b54875b35f09b4f9e0c.json",
+					"name" : "CallbackMaker",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CallbackMaker_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-CallbackMaker_static-RelWithDebInfo-c16dc3c714ddaaf32156.json",
+					"name" : "CallbackMaker_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Fractals::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Fractals-RelWithDebInfo-6dfb4b2bd0f42ce2c95d.json",
+					"name" : "Fractals",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Fractals_random::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Fractals_random-RelWithDebInfo-210435a02188280e93ff.json",
+					"name" : "Fractals_random",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Fractals_random_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Fractals_random_static-RelWithDebInfo-aafc798db8a5f56fbdc7.json",
+					"name" : "Fractals_random_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Fractals_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Fractals_static-RelWithDebInfo-1997a13585c96b66bcaa.json",
+					"name" : "Fractals_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Lorenz::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Lorenz-RelWithDebInfo-ea823aecd515f73ed80d.json",
+					"name" : "Lorenz",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Lorenz_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Lorenz_static-RelWithDebInfo-bb7db29a2a0df7810cc7.json",
+					"name" : "Lorenz_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "One::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-One-RelWithDebInfo-60a253a74133162608f5.json",
+					"name" : "One",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "One_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-One_static-RelWithDebInfo-47771a78a0b3345985df.json",
+					"name" : "One_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Resizer::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Resizer-RelWithDebInfo-216902fee0ffe86e6288.json",
+					"name" : "Resizer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Resizer_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-Resizer_static-RelWithDebInfo-fd3f28ff3e8fe981a84f.json",
+					"name" : "Resizer_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-c8694d92d7792796f9ca.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "app::@145eef247bfb46b6828c",
+					"jsonFile" : "target-app-RelWithDebInfo-ea71e2e863d26be321a3.json",
+					"name" : "app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-freeglut-RelWithDebInfo-da5a6cebec09970de64a.json",
+					"name" : "freeglut",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-freeglut_static-RelWithDebInfo-e2deeaf60fe562003520.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "multi-touch::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-multi-touch-RelWithDebInfo-5aead743728336240d0b.json",
+					"name" : "multi-touch",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "multi-touch_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-multi-touch_static-RelWithDebInfo-55d5564ae330186e0bf1.json",
+					"name" : "multi-touch_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "shapes::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-shapes-RelWithDebInfo-19d6efefef1a6bda61ec.json",
+					"name" : "shapes",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "shapes_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-shapes_static-RelWithDebInfo-0e74ebbb1462f6fe76a8.json",
+					"name" : "shapes_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "smooth_opengl3::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-smooth_opengl3-RelWithDebInfo-42eeddfc9e4e5602491b.json",
+					"name" : "smooth_opengl3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "smooth_opengl3_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-smooth_opengl3_static-RelWithDebInfo-fe661ad6d64fc47a1415.json",
+					"name" : "smooth_opengl3_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "subwin::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-subwin-RelWithDebInfo-c68ef5f9074a37b77d99.json",
+					"name" : "subwin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "subwin_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-subwin_static-RelWithDebInfo-df5b2da373e08d4a59db.json",
+					"name" : "subwin_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "timer::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-timer-RelWithDebInfo-4eccf24ad10eeed9e0eb.json",
+					"name" : "timer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "timer_callback::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-timer_callback-RelWithDebInfo-ef2580485edd4ede641d.json",
+					"name" : "timer_callback",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "timer_callback_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-timer_callback_static-RelWithDebInfo-f6a781074c6abe5a6812.json",
+					"name" : "timer_callback_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "timer_static::@e5edb9071f699be5d6e2",
+					"jsonFile" : "target-timer_static-RelWithDebInfo-4e2491f3b2972c3489fb.json",
+					"name" : "timer_static",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "A:/study/build",
+		"source" : "A:/study"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

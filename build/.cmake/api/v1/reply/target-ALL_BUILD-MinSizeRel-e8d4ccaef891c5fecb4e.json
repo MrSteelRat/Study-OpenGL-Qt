@@ -1,0 +1,114 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "smooth_opengl3_static::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "Fractals_random::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "Fractals::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "Fractals_static::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "Lorenz::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "multi-touch::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "timer_callback_static::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "CallbackMaker_static::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "subwin::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "freeglut::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "timer_callback::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "subwin_static::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "smooth_opengl3::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "freeglut_static::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "CallbackMaker::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "Fractals_random_static::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "timer::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "Lorenz_static::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "One_static::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "shapes_static::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "timer_static::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "app::@145eef247bfb46b6828c"
+		},
+		{
+			"id" : "One::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "Resizer::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "multi-touch_static::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "shapes::@e5edb9071f699be5d6e2"
+		},
+		{
+			"id" : "Resizer_static::@e5edb9071f699be5d6e2"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
