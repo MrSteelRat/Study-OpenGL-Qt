@@ -135,18 +135,18 @@ void DisplayCallback() {
   canvas.ClearScreen();
   canvas.SetColor(255, 255, 255);
   canvas.DrawRect(paddle1_x, paddle1_y, paddle1_x + paddle1_w,
-                  paddle1_y + paddle1_h);
+    paddle1_y + paddle1_h);
   canvas.DrawRect(paddle2_x, paddle2_y, paddle2_x + paddle2_w,
-                  paddle2_y + paddle2_h);
+    paddle2_y + paddle2_h);
   canvas.SetColor(238, 96, 2);
   canvas.DrawLine(kScreenWidth / 2, 0, kScreenWidth / 2, kScreenHeight);
   canvas.SetColor(238, 2, 144);
   canvas.DrawCircle(ball_x, ball_y, ball_r);
   canvas.SetColor(255, 255, 255);
   canvas.DrawString(kScreenWidth / 4, kScreenHeight - 10,
-                    std::to_string(player1_score));
+    std::to_string(player1_score));
   canvas.DrawString(kScreenWidth / 4 * 3, kScreenHeight - 10,
-                    std::to_string(player2_score));
+    std::to_string(player2_score));
 
   canvas.DisplayUpdate();
 }
@@ -188,12 +188,12 @@ void foo() {
   }
 
   if (ball_x - ball_r <= paddle1_x + paddle1_w && ball_y >= paddle1_y &&
-      ball_y <= paddle1_y + paddle1_h) {
+    ball_y <= paddle1_y + paddle1_h) {
     ball_xv *= -1;
   }
 
   if (ball_x + ball_r >= paddle2_x && ball_y >= paddle2_y &&
-      ball_y <= paddle2_y + paddle2_h) {
+    ball_y <= paddle2_y + paddle2_h) {
     ball_xv *= -1;
   }
 
@@ -220,67 +220,67 @@ void TimerCallback(int value) {
 
 void KeyboardCallback(unsigned char key, int x, int y) {
   switch (key) {
-    case 'w':
-    case 'W': {
-      key_w = true;
-      break;
-    }
-    case 's':
-    case 'S': {
-      key_s = true;
-      break;
-    }
-    case 27: {
-      glutLeaveMainLoop();
-      break;
-    }
-    default: {
-      std::clog << "unsupported key: " << key << std::endl;
-    }
+  case 'w':
+  case 'W': {
+    key_w = true;
+    break;
+  }
+  case 's':
+  case 'S': {
+    key_s = true;
+    break;
+  }
+  case 27: {
+    glutLeaveMainLoop();
+    break;
+  }
+  default: {
+    std::clog << "unsupported key: " << key << std::endl;
+  }
   }
 }
 
 void KeyboardUpCallback(unsigned char key, int x, int y) {
   switch (key) {
-    case 'w':
-    case 'W': {
-      key_w = false;
-      break;
-    }
-    case 's':
-    case 'S': {
-      key_s = false;
-      break;
-    }
+  case 'w':
+  case 'W': {
+    key_w = false;
+    break;
+  }
+  case 's':
+  case 'S': {
+    key_s = false;
+    break;
+  }
   }
 }
 
 void SpecialCallback(int key, int x, int y) {
   switch (key) {
-    case GLUT_KEY_UP: {
-      key_up = true;
-      break;
-    }
-    case GLUT_KEY_DOWN: {
-      key_down = true;
-      break;
-    }
-    default: {
-      std::clog << "unsupported key: " << key << std::endl;
-    }
+  case GLUT_KEY_UP: {
+    key_up = true;
+    break;
+  }
+  case GLUT_KEY_DOWN: {
+    key_down = true;
+    break;
+  }
+  default: {
+    std::clog << "unsupported key: " << key << std::endl;
+  }
   }
 }
 
 void SpecialUpCallback(int key, int x, int y) {
   switch (key) {
-    case GLUT_KEY_UP: {
-      key_up = false;
-      break;
-    }
-    case GLUT_KEY_DOWN: {
-      key_down = false;
-      break;
-    }
+  case GLUT_KEY_UP: {
+    key_up = false;
+    break;
+  }
+  case GLUT_KEY_DOWN: {
+    key_down = false;
+    break;
+  }
   }
 }
 
